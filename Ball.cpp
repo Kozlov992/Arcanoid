@@ -1,6 +1,6 @@
 #include "Ball.hpp"
 Ball::Ball(sf::Vector2f& center, float radius, sf::Color color) :GameObjectCircle(center, radius, color) {
-	_angle =  M_PI_2;
+	_angle =  M_PI_4;
 	_velocity = 6;
 	_isGlued = false;
 }
